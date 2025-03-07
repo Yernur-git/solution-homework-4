@@ -1,5 +1,8 @@
 package chat;
 
 public interface ChatService {
-    ChatService sendMessage(String message);
+
+    //new interface for application
+
+    void sendMessage(String message);
 }
